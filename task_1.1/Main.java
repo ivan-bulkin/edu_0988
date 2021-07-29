@@ -13,7 +13,7 @@ name типа String, age типа int и city типа String.
 Должны быть объявлены 3 переменные.
 */
 
-public class Task_1_1 {
+public class Main {
     public static void main(String[] args) {
 //Объяляем переменную name типа String.
         String name;
