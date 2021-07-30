@@ -9,7 +9,7 @@
 •	Текст в каждой строке должен быть уникален.
 •	Должны быть выведены все возможные комбинации. */
 
-public class Task_2_1 {
+public class Main {
     public static void main(String[] args) {
 //Создаём массив из слов
         String[] str = {"Мама", "Мыла", "Раму"};
