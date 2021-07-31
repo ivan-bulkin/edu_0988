@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
         int[] nums = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         System.out.println("Сейчас Вам надо будет ввести десять целых чисел.");
-        for (int i = 1; i <= 10; i++) {
-            Scanner scanner = new Scanner(System.in);//Это нужно, чтобы можно было вводить значения с клавиатуры
+        Scanner scanner = new Scanner(System.in);//Это нужно, чтобы можно было вводить значения с клавиатуры
+        for (int i = 1; i <= 10; i++) {            
             System.out.print("Введите число " + i + ": ");
             nums[i - 1] = scanner.nextInt();
         }
